@@ -1,0 +1,21 @@
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 1
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+spring:
+  application:
+    name: jersey-exclude-client
+logging:
+  level:
+    com:
+      netflix:
+        discovery: WARN
+        eureka: WARN

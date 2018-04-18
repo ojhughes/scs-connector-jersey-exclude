@@ -1,0 +1,7 @@
+---
+applications:
+  - name: jersey-exclude-test-app
+    timeout: 30
+    services:
+      - jersey-exclude-registry-test
+    path: target/scs-connector-jersey-exclude-0.0.1-SNAPSHOT.jar
